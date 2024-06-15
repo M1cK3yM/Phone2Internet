@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/startButton"
+        android:layout_marginTop="16dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="177dp"
+        android:layout_height="29dp"
+        android:layout_below="@+id/stopButton"
+        android:layout_alignStart="@+id/stopButton"
+        android:layout_alignEnd="@+id/stopButton"
+        android:layout_marginStart="-41dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="-48dp" />
+
+    <TextView
+        android:id="@+id/hostAddresses"
+        android:layout_width="243dp"
+        android:layout_height="85dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:layout_marginStart="-34dp"
+        android:layout_marginTop="98dp"
+        android:layout_marginEnd="-33dp" />
+</RelativeLayout>
